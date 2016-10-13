@@ -23,7 +23,10 @@ class TwitterApi:
 
         self.api = tweepy.API(auth)
 
-
     def SearchTweets(self, query, language):
-        public_tweets = self.api.search(q=query, lang=language, count=100)
+        public_tweets = []
+        try:
+            public_tweets = self.api.search(q=query, lang=language, count=100)
+        except (tweepy.error.TweepError):
+            print("Please verify your Twitter API keys, it seems they're wrong.")
         return public_tweets
