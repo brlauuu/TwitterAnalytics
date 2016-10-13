@@ -45,13 +45,13 @@ class TextAnalyticsApi:
             
             if ('documents' not in data):
                 raise Exception(data["code"] + " : " + data["message"])
-            
-            return data
             conn.close()
 
         except Exception as e:
-            print(e)
+            data = None
+            print 'Please verify your Microsoft Cognitive Services API key, this one doesn\'t work.'
 
+        return data
 
         
 
