@@ -49,7 +49,7 @@ class TextAnalyticsApi:
 
         except Exception as e:
             data = None
-            print 'Please verify your Microsoft Cognitive Services API key, this one doesn\'t work.'
+            print("Please verify your Microsoft Cognitive Services API key, this one doesn't work.")
 
         return data
 
