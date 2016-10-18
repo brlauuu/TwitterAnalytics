@@ -22,7 +22,7 @@ All the dependencies are in the `requirements.txt` file. To install them, simply
 
 To run the programm, type :
 
-	python run-analytics.py`
+	python run-analytics.py --query=<QUERY> [--language=<LN>]
 
 
 ## Infos
