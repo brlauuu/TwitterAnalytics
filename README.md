@@ -1,8 +1,6 @@
 # TweetAnalytics
 
-Simple script app for analysis of tweets using [Text Analytics API](https://www.microsoft.com/cognitive-services/en-us/text-analytics-api) and [Tweepy](http://www.tweepy.org). 
-
-For now, the script analyses ~100 tweets that have the word 'Samsung' in them and returns the average sentiment value. 
+Simple script app for analysis of tweets using [Text Analytics API](https://www.microsoft.com/cognitive-services/en-us/text-analytics-api) and [Tweepy](http://www.tweepy.org).  
 
 ## API keys
 
