@@ -24,7 +24,7 @@ class TextAnalyticsApi:
             inputData["documents"].append(tmp)
 
         inputJson = json.dumps(inputData)
-        inputJson = str(inputJson.encode('utf8'))
+        inputJson = str(inputJson.decode('utf8'))
 
         headers = {
             # Request headers
@@ -42,7 +42,7 @@ class TextAnalyticsApi:
             response = conn.getresponse()
             data = response.read()
             data = json.loads(data)
-            
+
             if ('documents' not in data):
                 raise Exception(data["code"] + " : " + data["message"])
             conn.close()
