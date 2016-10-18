@@ -16,6 +16,10 @@ Write your keys in the related files in the `.credentials` folder.
 
 ## Installation
 
+Download this repository 
+
+	git clone https://github.com/DjoleR/TwitterAnalytics.git
+
 All the dependencies are in the `requirements.txt` file. To install them, simply run :
 
 	pip install -r requirements.txt
@@ -24,6 +28,9 @@ To run the programm, type :
 
 	python run-analytics.py [OPTION]
 
+All options can be seen by running:
+	
+	python run-analytics.py --help
 
 ## Infos
 
