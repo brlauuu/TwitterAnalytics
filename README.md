@@ -16,7 +16,7 @@ Write your keys in the related files in the `.credentials` folder.
 
 Download this repository 
 
-	git clone https://github.com/DjoleR/TwitterAnalytics.git
+	git clone https://github.com/brlauuu/TwitterAnalytics.git
 
 All the dependencies are in the `requirements.txt` file. To install them, simply run :
 
